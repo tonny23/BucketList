@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--TODO step 16: add the line of code from the tutorial to the CheckBox -->
+    <!--TODO step 3: add a TextView and a CheckBox-->
+
+</android.support.constraint.ConstraintLayout>

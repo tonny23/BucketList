@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.bucketlist.BucketListActivity"
+    tools:showIn="@layout/activity_bucket_list">
+
+    <!--TODO step 2: add a RecyclerView, give the RecyclerView the id ‘recyclerView’-->
+
+    <!--TODO step 9: add an EditText widget that will be used to add an new item to the bucketlist -->
+
+</android.support.constraint.ConstraintLayout>
