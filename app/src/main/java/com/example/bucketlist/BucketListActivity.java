@@ -9,7 +9,15 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
-//TODO step 14: implement ItemArrayAdapter.ItemClickListener and implement the itemOnLongClick method with the code from the tutorial
+//TODO step 14: implement ItemArrayAdapter.ItemClickListener in this class and implement the itemOnLongClick method
+/*@Override
+public void itemOnLongClick(int position) {
+        mItems.remove(position);
+        mAdapter.notifyItemRemoved(position);
+
+        }
+     }*/
+
 public class BucketListActivity extends AppCompatActivity {
 
     @Override
@@ -21,7 +29,11 @@ public class BucketListActivity extends AppCompatActivity {
 
         //TODO step 5: initialize the RecyclerView, LayoutManager and the List/ArrayList that holds the BucketList items
 
-        //TODO step 6: add the items from the tutorial here
+        //TODO step 6: add the items beneath here
+/*        mItems.add("Skydiving");
+        mItems.add("Fly a plane");
+        mItems.add("Drive a Formula 1 car");
+        mItems.add("Go to Japan");*/
 
         //TODO step 8: call updateUI() here
 
@@ -59,6 +71,16 @@ public class BucketListActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    //TODO step 7: add the updateUI() method from the tutorial
+    //TODO step 7: add the updateUI() method
+/*    private void updateUI() {
+        if (mAdapter == null) {
+            mAdapter = new ItemArrayAdapter(mItems, this);
+            mRecyclerView.setAdapter(mAdapter);
+        } else {
+            mAdapter.notifyDataSetChanged();
+        }
+    }*/
 
 }
+
+//TODO step 17: The final version of the app can be tested now by running it and performing all functions.

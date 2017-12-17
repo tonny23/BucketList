@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--TODO step 1: add the colors from the tutorial, you might need to rebuild the project after adding the colors-->
+    <!--TODO step 1: uncomment the colors, you might need to rebuild the project after adding the colors-->
+<!--    <color name="colorPrimary">#F64549</color>
+    <color name="colorPrimaryDark">#D63535</color>
+    <color name="colorAccent">#D63535</color>-->
 
 </resources>
